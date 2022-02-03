@@ -5,16 +5,13 @@
  *
 */
 resource "azurerm_log_analytics_workspace" "log_analytics_workspace" {
-  for_each = var.resource_name
+  for_each = var.log_analytics_workspace
 
-  name                = each.value
-  location            = var.location
-  resource_group_name = var.resource_group_name
-  sku                 = local.log_analytics_workspace.sku
-  retention_in_days   = local.log_analytics_workspace.retention_in_days
+  name                = local.log_analytics_workspace[each.key].name == "" ? each.key : local.log_analytics_workspace[each.key].name
+  location            = local.log_analytics_workspace[each.key].location
+  resource_group_name = local.log_analytics_workspace[each.key].resource_group_name
+  sku                 = local.log_analytics_workspace[each.key].sku
+  retention_in_days   = local.log_analytics_workspace[each.key].retention_in_days
 
-  tags = {
-    for tag in keys(local.tags) :
-    tag => local.tags[tag]
-  }
+  tags = local.log_analytics_workspace[each.key].tags
 }
