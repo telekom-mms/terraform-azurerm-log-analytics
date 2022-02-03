@@ -28,24 +28,23 @@ This module manages Azure Log Analytics Workspace.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| location | location where the resource should be created | `string` | n/a | yes |
-| resource_group_name | resource_group whitin the resource should be created | `string` | n/a | yes |
 | log_analytics_workspace | resource definition, default settings are defined within locals and merged with var settings | `any` | `{}` | no |
-| resource_name | Azure Log Analytics Workspace | `set(string)` | `[]` | no |
-| tags | mapping of tags to assign, default settings are defined within locals and merged with var settings | `any` | `{}` | no |
 
 
 
 ## Examples
 
 ```hcl
-module "log-analytics" {
-  source              = "../terraform-log-analytics"
-  location            = "westeurope"
-  resource_group_name = "service-mgmt-rg"
-  resource_name       = ["service-monitor-loganalytics-workspace"]
-  tags = {
-    service = "service_name"
+module "log_analytics" {
+  source = "../terraform-log-analytics"
+  log_analytics_workspace = {
+    service-monitor-loganalytics-workspace = {
+      location            = "westeurope"
+      resource_group_name = "service-mgmt-rg"
+      tags = {
+        service = "service_name"
+      }
+    }
   }
 }
 ```
