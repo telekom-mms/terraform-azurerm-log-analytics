@@ -30,7 +30,11 @@ This module manages Azure Log Analytics Workspace.
 |------|-------------|------|---------|:--------:|
 | log_analytics_workspace | resource definition, default settings are defined within locals and merged with var settings | `any` | `{}` | no |
 
+## Outputs
 
+| Name | Description |
+|------|-------------|
+| log_analytics_workspace | azurerm_log_analytics_workspace results |
 
 ## Examples
 
