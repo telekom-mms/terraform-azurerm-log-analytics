@@ -1,5 +1,5 @@
 module "log_analytics" {
-  source = "../terraform-log-analytics"
+  source = "registry.terraform.io/T-Systems-MMS/log-analytics/azurerm"
   log_analytics_workspace = {
     service-monitor-loganalytics-workspace = {
       location            = "westeurope"
