@@ -1,8 +1,8 @@
 # Changelog
 
-## [0.0.1](https://github.com/T-Systems-MMS/terraform-log-analytics/tree/0.0.1) (2021-12-16)
+## [0.0.1](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/tree/0.0.1) (2021-12-16)
 
-[Full Changelog](https://github.com/T-Systems-MMS/terraform-log-analytics/compare/25d6312fa1b331112b42008b62549b6719e3fda6...0.0.1)
+[Full Changelog](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/compare/25d6312fa1b331112b42008b62549b6719e3fda6...0.0.1)
 
 
 
