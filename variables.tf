@@ -8,10 +8,14 @@ locals {
   default = {
     # resource definition
     log_analytics_workspace = {
-      name              = ""
-      sku               = "PerGB2018"
-      retention_in_days = 30
-      tags              = {}
+      name                               = ""
+      sku                                = "PerGB2018"
+      retention_in_days                  = 30
+      daily_quota_gb                     = -1
+      internet_ingestion_enabled         = null
+      internet_query_enabled             = null
+      reservation_capacity_in_gb_per_day = null
+      tags                               = {}
     }
   }
 
