@@ -25,7 +25,7 @@ locals {
     log_analytics_solution = {
       solution_name = ""
       plan = {
-        publisher = "Microsoft"
+        publisher      = "Microsoft"
         promotion_code = null
       }
     }

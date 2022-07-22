@@ -22,15 +22,15 @@ resource "azurerm_log_analytics_workspace" "log_analytics_workspace" {
 resource "azurerm_log_analytics_solution" "log_analytics_solution" {
   for_each = var.log_analytics_solution
 
-  solution_name          = local.log_analytics_solution[each.key].solution_name == "" ? each.key : local.log_analytics_solution[each.key].solution_name
-  location               = local.log_analytics_solution[each.key].location
-  resource_group_name    = local.log_analytics_solution[each.key].resource_group_name
-  workspace_resource_id  = local.log_analytics_solution[each.key].workspace_resource_id
-  workspace_name         = local.log_analytics_solution[each.key].workspace_name
+  solution_name         = local.log_analytics_solution[each.key].solution_name == "" ? each.key : local.log_analytics_solution[each.key].solution_name
+  location              = local.log_analytics_solution[each.key].location
+  resource_group_name   = local.log_analytics_solution[each.key].resource_group_name
+  workspace_resource_id = local.log_analytics_solution[each.key].workspace_resource_id
+  workspace_name        = local.log_analytics_solution[each.key].workspace_name
 
   plan {
-    publisher= local.log_analytics_solution[each.key].plan.publisher
-    product= local.log_analytics_solution[each.key].plan.product
+    publisher      = local.log_analytics_solution[each.key].plan.publisher
+    product        = local.log_analytics_solution[each.key].plan.product
     promotion_code = local.log_analytics_solution[each.key].plan.promotion_code
   }
 
