@@ -10,30 +10,33 @@ This module manages Azure Log Analytics Workspace.
 | Name | Version |
 |------|---------|
 | terraform | >=1.0 |
-| azurerm | >=2.19.0 |
+| azurerm | >=3.6.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| azurerm | >=2.19.0 |
+| azurerm | >=3.6.0 |
 
 ## Resources
 
 | Name | Type |
 |------|------|
+| azurerm_log_analytics_solution.log_analytics_solution | resource |
 | azurerm_log_analytics_workspace.log_analytics_workspace | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| log_analytics_solution | resource definition, default settings are defined within locals and merged with var settings | `any` | `{}` | no |
 | log_analytics_workspace | resource definition, default settings are defined within locals and merged with var settings | `any` | `{}` | no |
 
 ## Outputs
 
 | Name | Description |
 |------|-------------|
+| log_analytics_solution | azurerm_log_analytics_solution |
 | log_analytics_workspace | azurerm_log_analytics_workspace results |
 
 ## Examples
