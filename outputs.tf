@@ -14,8 +14,8 @@ output "log_analytics_solution" {
   value = {
     for log_analytics_solution in keys(azurerm_log_analytics_solution.log_analytics_solution) :
     log_analytics_solution => {
-      id   = azurerm_log_analytics_solution.log_analytics_solution[log_analytics_solution].id
-      name = azurerm_log_analytics_solution.log_analytics_solution[log_analytics_solution].name
+      id            = azurerm_log_analytics_solution.log_analytics_solution[log_analytics_solution].id
+      solution_name = azurerm_log_analytics_solution.log_analytics_solution[log_analytics_solution].solution_name
     }
   }
 }
