@@ -1,26 +1,34 @@
 # Changelog
 
-## [2.0.0](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/tree/2.0.0) (2022-07-25)
+## [3.0.0](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/3.0.0) (2023-11-07)
 
-[Full Changelog](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/compare/1.0.0...2.0.0)
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-log-analytics/compare/2.0.0...3.0.0)
+
+**Closed issues:**
+
+- Dependency Dashboard [\#4](https://github.com/telekom-mms/terraform-azurerm-log-analytics/issues/4)
+
+## [2.0.0](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/2.0.0) (2022-07-25)
+
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-log-analytics/compare/1.0.0...2.0.0)
 
 **Merged pull requests:**
 
-- add more output attribute [\#10](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/pull/10) ([michaelamattes](https://github.com/michaelamattes))
-- update for azurerm\_3 [\#9](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/pull/9) ([michaelamattes](https://github.com/michaelamattes))
-- chore\(deps\): update hashicorp/setup-terraform action to v2 [\#8](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
-- chore\(deps\): update creyd/prettier\_action action to v4 [\#7](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/pull/7) ([renovate[bot]](https://github.com/apps/renovate))
-- chore\(deps\): update actions/checkout action [\#6](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
-- chore\(deps\): update github-actions-x/commit action to v2.9 [\#5](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/pull/5) ([renovate[bot]](https://github.com/apps/renovate))
-- add renovate config [\#1](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/pull/1) ([michaelamattes](https://github.com/michaelamattes))
+- add more output attribute [\#10](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/10) ([michaelamattes](https://github.com/michaelamattes))
+- update for azurerm\_3 [\#9](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/9) ([michaelamattes](https://github.com/michaelamattes))
+- chore\(deps\): update hashicorp/setup-terraform action to v2 [\#8](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update creyd/prettier\_action action to v4 [\#7](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/7) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update actions/checkout action [\#6](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
+- chore\(deps\): update github-actions-x/commit action to v2.9 [\#5](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/5) ([renovate[bot]](https://github.com/apps/renovate))
+- add renovate config [\#1](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/1) ([michaelamattes](https://github.com/michaelamattes))
 
-## [1.0.0](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/tree/1.0.0) (2022-02-17)
+## [1.0.0](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/1.0.0) (2022-02-17)
 
-[Full Changelog](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/compare/0.0.1...1.0.0)
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-log-analytics/compare/0.0.1...1.0.0)
 
-## [0.0.1](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/tree/0.0.1) (2021-12-16)
+## [0.0.1](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/0.0.1) (2021-12-16)
 
-[Full Changelog](https://github.com/T-Systems-MMS/terraform-azurerm-log-analytics/compare/25d6312fa1b331112b42008b62549b6719e3fda6...0.0.1)
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-log-analytics/compare/25d6312fa1b331112b42008b62549b6719e3fda6...0.0.1)
 
 
 
