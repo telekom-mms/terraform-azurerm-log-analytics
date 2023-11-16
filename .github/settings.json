@@ -7,8 +7,8 @@
     "topics": [
       "terraform",
       "azure",
-      "azurerm-log-analytics-workspace",
-      "azurerm-log-analytics-solution"
+      "log-analytics-workspace",
+      "log-analytics-solution"
     ]
   }
 }
