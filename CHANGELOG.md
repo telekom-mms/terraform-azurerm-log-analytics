@@ -1,12 +1,23 @@
 # Changelog
 
-## [3.0.0](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/3.0.0) (2023-11-07)
+## [3.0.1](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/3.0.1) (2023-11-16)
 
-[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-log-analytics/compare/2.0.0...3.0.0)
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-log-analytics/compare/3.0.0...3.0.1)
 
 **Closed issues:**
 
 - Dependency Dashboard [\#4](https://github.com/telekom-mms/terraform-azurerm-log-analytics/issues/4)
+
+## [3.0.0](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/3.0.0) (2023-11-07)
+
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-log-analytics/compare/2.0.0...3.0.0)
+
+**Merged pull requests:**
+
+- refactoring module [\#14](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/14) ([michaelamattes](https://github.com/michaelamattes))
+- add Renovate Dependency Dashboard and automatic merge on patch updates [\#13](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/13) ([michaelamattes](https://github.com/michaelamattes))
+- Update actions/checkout action to v3.2.0 [\#12](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/12) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action to v3.1.0 [\#11](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/11) ([renovate[bot]](https://github.com/apps/renovate))
 
 ## [2.0.0](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/2.0.0) (2022-07-25)
 
