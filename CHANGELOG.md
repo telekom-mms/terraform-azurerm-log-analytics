@@ -1,12 +1,12 @@
 # Changelog
 
-## [3.0.1](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/3.0.1) (2023-11-20)
+## [3.0.1](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/3.0.1) (2024-08-28)
 
 [Full Changelog](https://github.com/telekom-mms/terraform-azurerm-log-analytics/compare/3.0.0...3.0.1)
 
-**Closed issues:**
+**Merged pull requests:**
 
-- Dependency Dashboard [\#4](https://github.com/telekom-mms/terraform-azurerm-log-analytics/issues/4)
+- Pin version of azurerm to compatible state   [\#18](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/18) ([michaelamattes](https://github.com/michaelamattes))
 
 ## [3.0.0](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/3.0.0) (2023-11-07)
 
