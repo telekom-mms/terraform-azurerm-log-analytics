@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.0.2](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/3.0.2) (2025-08-28)
+
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-log-analytics/compare/3.0.1...3.0.2)
+
+**Fixed bugs:**
+
+- fix terrascan workflow run [\#19](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/19) ([michaelamattes](https://github.com/michaelamattes))
+
 ## [3.0.1](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/3.0.1) (2024-08-28)
 
 [Full Changelog](https://github.com/telekom-mms/terraform-azurerm-log-analytics/compare/3.0.0...3.0.1)
