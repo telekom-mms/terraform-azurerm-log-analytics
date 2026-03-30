@@ -1,16 +1,24 @@
 # Changelog
 
+## [4.0.1](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/4.0.1) (2026-03-30)
+
+[Full Changelog](https://github.com/telekom-mms/terraform-azurerm-log-analytics/compare/4.0.0...4.0.1)
+
+**Merged pull requests:**
+
+- chore\(config\): standardize renovate.json and update repository topics [\#22](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/22) ([mikaEz](https://github.com/mikaEz))
+
 ## [4.0.0](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/4.0.0) (2025-12-11)
 
 [Full Changelog](https://github.com/telekom-mms/terraform-azurerm-log-analytics/compare/3.0.1...4.0.0)
 
 **Fixed bugs:**
 
-- fix terrascan workflow run [\#19](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/19) ([michaelamattes](https://github.com/michaelamattes))
+- fix terrascan workflow run [\#19](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/19) ([mikaEz](https://github.com/mikaEz))
 
 **Merged pull requests:**
 
-- Upgrade azurerm to version 4 [\#20](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/20) ([michaelamattes](https://github.com/michaelamattes))
+- Upgrade azurerm to version 4 [\#20](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/20) ([mikaEz](https://github.com/mikaEz))
 
 ## [3.0.1](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/3.0.1) (2024-08-28)
 
@@ -18,7 +26,7 @@
 
 **Merged pull requests:**
 
-- Pin version of azurerm to compatible state   [\#18](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/18) ([michaelamattes](https://github.com/michaelamattes))
+- Pin version of azurerm to compatible state   [\#18](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/18) ([mikaEz](https://github.com/mikaEz))
 
 ## [3.0.0](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/3.0.0) (2023-11-07)
 
@@ -26,8 +34,8 @@
 
 **Merged pull requests:**
 
-- refactoring module [\#14](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/14) ([michaelamattes](https://github.com/michaelamattes))
-- add Renovate Dependency Dashboard and automatic merge on patch updates [\#13](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/13) ([michaelamattes](https://github.com/michaelamattes))
+- refactoring module [\#14](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/14) ([mikaEz](https://github.com/mikaEz))
+- add Renovate Dependency Dashboard and automatic merge on patch updates [\#13](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/13) ([mikaEz](https://github.com/mikaEz))
 - Update actions/checkout action to v3.2.0 [\#12](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/12) ([renovate[bot]](https://github.com/apps/renovate))
 - Update actions/checkout action to v3.1.0 [\#11](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/11) ([renovate[bot]](https://github.com/apps/renovate))
 
@@ -37,13 +45,13 @@
 
 **Merged pull requests:**
 
-- add more output attribute [\#10](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/10) ([michaelamattes](https://github.com/michaelamattes))
-- update for azurerm\_3 [\#9](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/9) ([michaelamattes](https://github.com/michaelamattes))
+- add more output attribute [\#10](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/10) ([mikaEz](https://github.com/mikaEz))
+- update for azurerm\_3 [\#9](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/9) ([mikaEz](https://github.com/mikaEz))
 - chore\(deps\): update hashicorp/setup-terraform action to v2 [\#8](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(deps\): update creyd/prettier\_action action to v4 [\#7](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/7) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(deps\): update actions/checkout action [\#6](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
 - chore\(deps\): update github-actions-x/commit action to v2.9 [\#5](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/5) ([renovate[bot]](https://github.com/apps/renovate))
-- add renovate config [\#1](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/1) ([michaelamattes](https://github.com/michaelamattes))
+- add renovate config [\#1](https://github.com/telekom-mms/terraform-azurerm-log-analytics/pull/1) ([mikaEz](https://github.com/mikaEz))
 
 ## [1.0.0](https://github.com/telekom-mms/terraform-azurerm-log-analytics/tree/1.0.0) (2022-02-17)
 
